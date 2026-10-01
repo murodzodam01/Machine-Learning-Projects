@@ -1,6 +1,6 @@
-# YOLO Object Detector From Scratch
+﻿# YOLO Object Detector From Scratch
 
-This README accompanies A from-scratch YOLOv1-style object detector implemented with PyTorch and PyTorch Lightning. The model is trained to detect three fruit classes:
+This README accompanies a from-scratch YOLOv1-style object detector implemented with PyTorch and PyTorch Lightning. The model is trained to detect three fruit classes:
 
 - Apple
 - Orange
@@ -12,7 +12,7 @@ The notebook covers the complete basic detection pipeline:
 
 1. Downloads the fruit image dataset and XML annotations.
 2. Converts Pascal VOC bounding boxes to normalized `(x_center, y_center, width, height)` coordinates.
-3. Builds `7 × 7 × 13` YOLO target tensors.
+3. Builds `7 Г— 7 Г— 13` YOLO target tensors.
 4. Defines the convolutional YOLO model.
 5. Implements IoU and the YOLOv1 loss.
 6. Trains the model with PyTorch Lightning.
@@ -53,7 +53,7 @@ The notebook installs `xmltodict`, `pytorch-lightning`, and `gdown`. Depending o
 
 ## How to run
 
-1. Open `YOLO_FROM_SCRATCH.ipynb` in Google Colab or Jupyter.
+1. Open `YOLO_from_scratch.ipynb` in Google Colab or Jupyter.
 2. If possible, enable a GPU runtime.
 3. Run the cells from top to bottom.
 4. Allow the dataset download and extraction cell to finish.
@@ -84,5 +84,6 @@ if confidence < 0.25:
 
 ## Files
 
-- `YOLO_FROM_SCRATCH.ipynb` — corrected notebook.
-- `README_YOLO_FROM_SCRATCH.md` — project documentation.
+- `YOLO_from_scratch.ipynb` вЂ” corrected notebook.
+- `README.md` вЂ” project documentation.
+
